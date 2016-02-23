@@ -1,16 +1,15 @@
 var React = require('react');
 var Bootstrap = require('react-bootstrap');
-var Row = Bootstrap.Row
+var Jumbotron = Bootstrap.Jumbotron;
 var Page1 = React.createClass({
 
   render: function(){
-    var rowStyle = {marginTop:'6.33em', paddingLeft:'1em', paddingRight:'1em'};
+
     return (
-     <Row style={rowStyle}>
-       <h1>
-       Kitty Page
-       </h1>
-     </Row>
+      <Jumbotron fluid="false" bsStyle="info">
+        <h1>Play Page</h1>
+        <p>Play Something</p>
+      </Jumbotron>
    )
  }
 });

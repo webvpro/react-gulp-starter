@@ -15,6 +15,7 @@ var Base = require('./components/Base.jsx');
 var Home = require('./components/Home.jsx');
 var Page1 = require('./components/Page1.jsx');
 var Page2 = require('./components/Page2.jsx');
+var Page3 = require('./components/Page3.jsx');
 
 var Routes = (
   <Router history={appHistory}>
@@ -23,6 +24,7 @@ var Routes = (
       <Route path="/home" component={Home}></Route>
       <Route path="/page1" component={Page1}></Route>
       <Route path="/page2" component={Page2}></Route>
+      <Route path="/page3" component={Page3}></Route>
     </Route>
   </Router>
 );
