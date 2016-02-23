@@ -69,7 +69,7 @@ gulp.task('index-html', function() {
 
 gulp.task('watch', function() {
     gulp.watch('./src/style/sass/**/*.scss', ['css']);
-    gulp.watch('./src/js/*.jsx', ['jsx']);
+    gulp.watch('./src/js/**/*.jsx', ['jsx']);
     gulp.watch('./src/index.html', ['index-html']);
 });
 
