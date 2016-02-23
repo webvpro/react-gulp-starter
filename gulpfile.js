@@ -53,7 +53,7 @@ gulp.task('css', function() { 
             './style/sass',
             './bower_components/bootstrap-sass-official/assets/stylesheets/',
             './bower_components/font-awesome/scss/',
-            './bower_components/bootswatch-sass/cyborg/'
+            './bower_components/bootswatch-sass/'
           ]
       })
       .pipe(gulp.dest('public/css'));

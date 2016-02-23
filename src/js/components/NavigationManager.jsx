@@ -22,7 +22,7 @@ var NavigationManager = React.createClass({
       <Navbar className="navbar-fixed-top" fluid id="{this.props.id}">
         <Link className="navbar-brand" to="/home">{this.props.brand}</Link>
         <Nav className="nav pull-right">
-          <DropdownButton style={navStyle.button} className="" eventKey={3} title="Dropdown" pullRight id="navdropdown">
+          <DropdownButton style={navStyle.button} className="btn-info" eventKey={3} title="Dropdown" pullRight id="navdropdown">
             <MenuItem eventKey="1">Action</MenuItem>
             <MenuItem eventKey="2">Another action</MenuItem>
             <MenuItem eventKey="3">Something else here</MenuItem>

@@ -7,10 +7,12 @@ var Grid = Bootstrap.Grid
 var Base = React.createClass({
   render: function(){
     return(
-     <div className="container-fluid">
-       <Navigation brand="FatePtz" />
-       {this.props.children}
-     </div>
+      <Grid fuild>
+        <Navigation brand="FatePtz" />
+        <Grid>
+          {this.props.children}
+        </Grid>
+      </Grid>
     )
   }
 });
