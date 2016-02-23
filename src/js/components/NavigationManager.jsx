@@ -17,16 +17,23 @@ var NavigationManager = React.createClass({
     var navStyle ={
       button: {marginTop:6}
     };
-    var Brand = <Link className="navbar-brand" to="/home">{this.props.brand}</Link>;
+
     return (
 
-      <Navbar className="navbar-fixed-top" fluid id="{this.props.id}" brand={Brand}>
+      <Navbar className="navbar-fixed-top" fluid id="{this.props.id}">
+        <Navbar.Header>
+          <Navbar.Brand>
+            <Link className="navbar-brand" to="/home">{this.props.brand}</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
         <Navbar.Collapse>
           <Nav className="nav pull-left">
             <NavItem eventKey={1} href="#/page1">Play</NavItem>
             <NavItem eventKey={2} href="#/page2">Publish</NavItem>
             <NavItem eventKey={2} href="#/page3">Purchase</NavItem>
           </Nav>
+          
           <Nav className="nav pull-right">
             <NavDropdown eventKey={3} title="Account" id="basic-nav-dropdown" className="pull-right">
               <MenuItem eventKey={3.1}><i className="fa fa-play-circle-o"></i>Sessions</MenuItem>
