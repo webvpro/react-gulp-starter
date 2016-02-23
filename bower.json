@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "font-awesome": "fontawesome#^4.5.0",
-    "bootstrap-sass-offical": "bootstrap-sass-official#^3.3.6"
+    "bootstrap-sass-offical": "bootstrap-sass-official#^3.3.6",
+    "bootswatch-sass": "^3.3.1"
   }
 }
