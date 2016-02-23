@@ -28,14 +28,14 @@ var NavigationManager = React.createClass({
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav className="nav pull-left">
+          <Nav>
             <NavItem eventKey={1} href="#/page1">Play</NavItem>
             <NavItem eventKey={2} href="#/page2">Publish</NavItem>
             <NavItem eventKey={2} href="#/page3">Purchase</NavItem>
           </Nav>
-          
-          <Nav className="nav pull-right">
-            <NavDropdown eventKey={3} title="Account" id="basic-nav-dropdown" className="pull-right">
+
+          <Nav className="navbar-right">
+            <NavDropdown eventKey={3} title="Account" id="basic-nav-dropdown" className="">
               <MenuItem eventKey={3.1}><i className="fa fa-play-circle-o"></i>Sessions</MenuItem>
               <MenuItem eventKey={3.2}><i className="fa fa-leanpub"></i>Publications</MenuItem>
               <MenuItem eventKey={3.3}><i className="fa fa-heartbeat"></i>Watching</MenuItem>
