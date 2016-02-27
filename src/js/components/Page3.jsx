@@ -4,10 +4,117 @@ var Jumbotron = Bootstrap.Jumbotron;
 var Page3 = React.createClass({
    render: function(){
      return (
-       <Jumbotron fluid="false" bsStyle="info">
-         <h1>Purchase Page</h1>
-         <p>Purchase Something</p>
-       </Jumbotron>
+
+         <div className='landscape'>
+           <div className='moon'></div>
+           <div className='layer l1'>
+             <div className='hills'>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+             </div>
+           </div>
+           <div className='layer l2'>
+             <div className='hills'>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+             </div>
+           </div>
+           <div className='layer l3'>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+             <div className='la'>
+               <div className='l'></div>
+               <div className='l'></div>
+             </div>
+           </div>
+         </div>
+
     )
   }
 });

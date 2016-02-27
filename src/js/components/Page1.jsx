@@ -6,7 +6,7 @@ var Page1 = React.createClass({
   render: function(){
 
     return (
-      <Jumbotron fluid="false" bsStyle="info">
+      <Jumbotron fluid="false">
         <h1>Play Page</h1>
         <p>Play Something</p>
       </Jumbotron>
